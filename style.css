@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #1b1a1a;
+    color: white;
+    padding: 25px;
+    text-align: center; /*centraliza o texto*/
+
+}
+
+hr{ 
+    border: none;
+    height: 2px ;
+    background-color: #1b1a1a;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* centraliza os links */
+    gap: 40px; /* espaçamento */
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none; /* remove o sublinhado */
+    font-weight: bold; /* o bold deixa o texto em negrito*/
+}
+
+.menu li a:hover {
+    text-decoration: underline; /* efeito ao passar o mouse */
+}
+
+h1{
+    font-size: 28px;
+    margin: 20px 0px 20px 20px; 
+}
+
+h2{
+    font-size: 24px;
+    margin: 10px 0px 20px 50px;
+}
+
+.paragrafo{
+    list-style-type: none;
+    font-size: 16px;
+    width: 75%;
+    margin: 20px 0px 20px 25px;
+    
+}
+
+#habilidades{
+    list-style-type: none;
+    font-size: 16px;
+    width: 75%;
+    margin: 20px 0px 20px 25px;
+}
+
+#objetivo{
+  text-indent: 20px;
+}
+#link{
+    margin-left: 190px;
+}
